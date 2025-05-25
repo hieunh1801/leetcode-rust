@@ -2,8 +2,6 @@ mod test;
 
 use std::collections::HashMap;
 
-use test::InputOutput;
-
 fn main() {
     let test_arrs = test::get_test_arrs();
     for test_arr in test_arrs {
